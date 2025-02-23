@@ -45,7 +45,18 @@
         <!-- Could be changed by the -push option !-->
         <container.build.extraarg>--load</container.build.extraarg>
     </properties>
-
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>My Nexus Repository</name>
+            <url>http://195.201.224.203:8081/repository/turkcell/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>My Nexus Snapshots Repository</name>
+            <url>http://195.201.224.203:8081/repository/turkcell-snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
     <dependencyManagement>
         <dependencies>
             <dependency>
