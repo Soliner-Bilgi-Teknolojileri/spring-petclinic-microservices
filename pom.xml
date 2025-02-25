@@ -49,12 +49,12 @@
         <repository>
             <id>nexus</id>
             <name>My Nexus Repository</name>
-            <url>http://nexus.soliner-poc.com.tr/repository/turkcell/</url>
+            <url>https://nexus.soliner-poc.com.tr/repository/turkcell/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
             <name>My Nexus Snapshots Repository</name>
-            <url>http://nexus.soliner-poc.com.tr/repository/turkcell-snapshot/</url>
+            <url>https://nexus.soliner-poc.com.tr/repository/turkcell-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
     <dependencyManagement>
